@@ -1,11 +1,48 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
 body {
-  @apply leading-[normal] m-0;
+  margin: 0;
+  line-height: normal;
 }
-*,
-::before,
-::after {
-  border-width: 0;
+
+:root {
+  /* fonts */
+  --font-pretendard: Pretendard;
+  --font-yoon-meolijeongche2s: "Yoon Meolijeongche2S";
+
+  /* font sizes */
+  --font-size-sm: 14px;
+  --font-size-xs: 12px;
+  --font-size-lg: 18px;
+  --font-size-xl-4: 20.4px;
+  --font-size-lgi: 19px;
+  --font-size-3xl: 22px;
+  --font-size-base: 16px;
+  --font-size-2xs: 11px;
+
+  /* Colors */
+  --color-whitesmoke-100: #f4f6f8;
+  --color-whitesmoke-200: #ebeff3;
+  --color-gray-100: rgba(255, 255, 255, 0.8);
+  --color-white: #fff;
+  --color-lightgray: #c5d1dd;
+  --color-darkgray: #b3b3b3;
+  --color-black: #000;
+  --color-lightsteelblue: #98acbf;
+  --color-darkslategray: #183552;
+  --color-slategray-100: #496886;
+  --color-silver: #b2bcc6;
+
+  /* Gaps */
+  --gap-3xs: 10px;
+
+  /* Paddings */
+  --padding-xs: 12px;
+  --padding-base: 16px;
+
+  /* border radiuses */
+  --br-2xs: 11px;
+  --br-4xs: 9px;
+  --br-7xs-7: 5.7px;
+  --br-9xl: 28px;
+  --br-5xl: 24px;
+  --br-7xs: 6px;
 }
