@@ -25,7 +25,7 @@
 }
 .main-item {
   top: 42px;
-  border-radius: 4px;
+  border-radius: var(--br-9xs);
   background: linear-gradient(137.64deg, #1f7edc, #7e4daa);
   width: 34px;
   height: 34px;
